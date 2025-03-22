@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penyemangat untuk Kamu</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div class="container">
+        <audio id="backsound" loop>
+            <source src="/img/H.E.R. - Best Part (Lyrics) Ft. Daniel Caesar.mp3" type="audio/mp3">
+        </audio>
+        
+        <video id="motivationVideo" controls>
+            <source src="/img/a5.mp4" type="video/mp4">
+            Browser kamu tidak mendukung video.
+        </video>
+        
+        <!-- Bagian Kata + Foto (Awalnya Disembunyikan) -->
+        <div id="motivationContent" class="hidden">
+            <p id="message"></p>
+            <img id="randomPhoto" src="" alt="Foto Kamu" class="foto">
+        </div>
+        <a href="awal.html">
+            <button>Kembali ke Awal</button>
+        </a>
+        
+
+
+        <!-- Tombol untuk mengganti tampilan -->
+        <button onclick="showMotivation()">Klik untuk Semangat Lagi!</button>
+    </div>
+
+    <script src="/java/main.js"></script>
+</body>
+</html>
